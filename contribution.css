@@ -14,13 +14,13 @@ html, body {
 
 .logo img{
     width: 80px;
-    margin-left: 100px;
+    margin-left: 128px;
 }
 
 .logo h1 {
     font-family: 'Comic Sans MS', cursive;
-    font-size: 10px;
     font-style: normal;
+    font-size: 16px;
     margin-left: 40px;
     margin-top: 0px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -34,12 +34,12 @@ html, body {
 
 .logo h1 span.green {
     color: #3FA752;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .logo h1 span.black {
     color: #000000;
-    font-size: 10px;
+    font-size: 16px;
 }
 
 .header a {
@@ -50,40 +50,39 @@ html, body {
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .logo img {
         width: 100px;
-        margin-left: 120px;
+        margin-left: 145px;
     }
 
     .logo h1 {
-        font-size: 15px;
         margin-left: 50px;
     }
 
     .logo h1 span.green {
-        font-size: 15px;
+        font-size: 20px;
     }
     
     .logo h1 span.black {
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
 @media screen and (min-width: 1025px) {
     .logo img {
         width: 130px;
-        margin-left: 160px;
+        margin-left: 180px;
     }
 
     .logo h1 {
-        font-size: 20px;
+        font-size: 24px;
         margin-left: 80px;
     }
 
     .logo h1 span.green {
-        font-size: 20px;
+        font-size: 24px;
     }
     
     .logo h1 span.black {
-        font-size: 20px;
+        font-size: 24px;
     }
 }
 
@@ -96,7 +95,7 @@ html, body {
 
 .search-icon {
     cursor: pointer;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .search-icon img {
@@ -236,7 +235,7 @@ summary::-webkit-details-marker {
 
 .main-content h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     margin-top: 100px;
     margin-left: 50px;
 }
@@ -383,7 +382,7 @@ summary::-webkit-details-marker {
     }
     
     .main-content h3 {
-        font-size: 20px;
+        font-size: 16px;
         margin-left: 80px;
     }
 
@@ -478,12 +477,12 @@ summary::-webkit-details-marker {
 
 @media screen and (min-width: 1025px) {
     .main-content h2 {
-        font-size: 32px;
+        font-size: 30px;
         margin-top: 130px;
     }
     
     .main-content h3 {
-        font-size: 24px;
+        font-size: 20px;
         margin-left: 100px;
         margin-top: 150px;
     }
@@ -597,15 +596,15 @@ summary::-webkit-details-marker {
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    margin-left: -50px;
+    margin-left: -30px;
     margin-top: 20px;
 }
 
 .footer-content h1 {
     font-family: 'Comic Sans MS', cursive;
-    margin-left: -50px;
+    margin-left: -20px;
     margin-top: 15px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .site-footer h2 {
@@ -663,15 +662,15 @@ summary::-webkit-details-marker {
     }
 
     .footer-content h1 {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .logo h1 span.green {
-        font-size: 15px;
+        font-size: 16px;
     }
     
     .logo h1 span.black {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .site-footer h2 {
@@ -698,15 +697,15 @@ summary::-webkit-details-marker {
     }
 
     .footer-content h1 {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .logo h1 span.green {
-        font-size: 18px;
+        font-size: 20px;
     }
     
     .logo h1 span.black {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .site-footer h2 {

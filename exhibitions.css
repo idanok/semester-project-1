@@ -14,14 +14,14 @@ html, body {
 
 .logo img{
     width: 80px;
-    margin-left: 100px;
+    margin-left: 135px;
 }
 
 .logo h1 {
     font-family: 'Comic Sans MS', cursive;
-    font-size: 10px;
+    font-size: 16px;
     font-style: normal;
-    margin-left: 40px;
+    margin-left: 50px;
     margin-top: 0px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     letter-spacing: 3px;
@@ -34,12 +34,12 @@ html, body {
 
 .logo h1 span.green {
     color: #3FA752;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .logo h1 span.black {
     color: #000000;
-    font-size: 10px;
+    font-size: 16px;
 }
 
 .header a {
@@ -50,40 +50,39 @@ html, body {
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .logo img {
         width: 100px;
-        margin-left: 120px;
+        margin-left: 145px;
     }
 
     .logo h1 {
-        font-size: 15px;
         margin-left: 50px;
     }
 
     .logo h1 span.green {
-        font-size: 15px;
+        font-size: 20px;
     }
     
     .logo h1 span.black {
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
 @media screen and (min-width: 1025px) {
     .logo img {
         width: 130px;
-        margin-left: 160px;
+        margin-left: 180px;
     }
 
     .logo h1 {
-        font-size: 20px;
+        font-size: 24px;
         margin-left: 80px;
     }
 
     .logo h1 span.green {
-        font-size: 20px;
+        font-size: 24px;
     }
     
     .logo h1 span.black {
-        font-size: 20px;
+        font-size: 24px;
     }
 }
 
@@ -95,7 +94,7 @@ html, body {
 
 .search-icon {
     cursor: pointer;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .search-icon img {
@@ -220,7 +219,7 @@ summary::-webkit-details-marker {
 
 .main-content-cosmology h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 26px;
+    font-size: 22px;
     font-style: italic;
     color: #3FA752;
     margin-top: 80px;
@@ -230,14 +229,14 @@ summary::-webkit-details-marker {
 
 .main-content-cosmology h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     display: flex;
     margin-left: 40px;
 }
 
 .main-content-cosmology p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
     width: 85%;
     margin-left: 40px;
@@ -254,14 +253,14 @@ summary::-webkit-details-marker {
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .main-content-cosmology h2 {
-        font-size: 30px;
+        font-size: 26px;
         margin-top: 100px;
         margin-bottom: 80px;
         margin-left: 80px;
     }
     
     .main-content-cosmology h3 {
-        font-size: 18px;
+        font-size: 16px;
         margin-left: 80px;
     }
     
@@ -279,19 +278,19 @@ summary::-webkit-details-marker {
 
 @media screen and (min-width: 1025px) {
     .main-content-cosmology h2 {
-        font-size: 35px;
+        font-size: 30px;
         margin-top: 150px;
         margin-bottom: 100px;
         margin-left: 120px;
     }
     
     .main-content-cosmology h3 {
-        font-size: 22px;
+        font-size: 20px;
         margin-left: 120px;
     }
     
     .main-content-cosmology p {
-        font-size: 18px;
+        font-size: 20px;
         width: 70%;
         margin-left: 120px;
         line-height: 1.5;
@@ -311,14 +310,14 @@ summary::-webkit-details-marker {
 
 .main-content-evolution h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     margin-left: 40px;
     margin-top: 100px;
 }
 
 .main-content-evolution p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     width: 85%;
     margin-left: 40px;
     line-height: 1.5;
@@ -334,7 +333,7 @@ summary::-webkit-details-marker {
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .main-content-evolution h3 {
-        font-size: 18px;
+        font-size: 16px;
         margin-left: 80px;
         margin-top: 180px;
     }
@@ -353,13 +352,13 @@ summary::-webkit-details-marker {
 
 @media screen and (min-width: 1025px) {
     .main-content-evolution h3 {
-        font-size: 22px;
+        font-size: 20px;
         margin-left: 120px;
         margin-top: 200px;
     }
     
     .main-content-evolution p {
-        font-size: 18px;
+        font-size: 20px;
         width: 70%;
         margin-left: 120px;
         line-height: 1.5;
@@ -378,7 +377,7 @@ summary::-webkit-details-marker {
 
 .main-content-biology-medicine h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     display: flex;
     margin-left: 40px;
     margin-top: 100px;
@@ -386,7 +385,7 @@ summary::-webkit-details-marker {
 
 .main-content-biology-medicine p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
     width: 85%;
     margin-left: 40px;
@@ -403,7 +402,7 @@ summary::-webkit-details-marker {
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .main-content-biology-medicine h3 {
-        font-size: 18px;
+        font-size: 16px;
         margin-left: 80px;
         margin-top: 180px;
     }
@@ -422,13 +421,13 @@ summary::-webkit-details-marker {
 
 @media screen and (min-width: 1025px) {
     .main-content-biology-medicine h3 {
-        font-size: 22px;
+        font-size: 20px;
         margin-left: 120px;
         margin-top: 200px;
     }
     
     .main-content-biology-medicine p {
-        font-size: 18px;
+        font-size: 20px;
         width: 70%;
         margin-left: 120px;
         line-height: 1.5;
@@ -447,7 +446,7 @@ summary::-webkit-details-marker {
 
 .main-content-robotics-AI h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     display: flex;
     margin-left: 40px;
     margin-top: 100px;
@@ -455,7 +454,7 @@ summary::-webkit-details-marker {
 
 .main-content-robotics-AI p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
     width: 80%;
     margin-left: 40px;
@@ -472,7 +471,7 @@ summary::-webkit-details-marker {
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .main-content-robotics-AI h3 {
-        font-size: 18px;
+        font-size: 16px;
         margin-left: 80px;
         margin-top: 180px;
     }
@@ -491,13 +490,13 @@ summary::-webkit-details-marker {
 
 @media screen and (min-width: 1025px) {
     .main-content-robotics-AI h3 {
-        font-size: 22px;
+        font-size: 20px;
         margin-left: 120px;
         margin-top: 200px;
     }
     
     .main-content-robotics-AI p {
-        font-size: 18px;
+        font-size: 20px;
         width: 70%;
         margin-left: 120px;
         line-height: 1.5;
@@ -516,7 +515,7 @@ summary::-webkit-details-marker {
 
 .main-content-ecology h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     display: flex;
     margin-left: 40px;
     margin-top: 100px;
@@ -524,7 +523,7 @@ summary::-webkit-details-marker {
 
 .main-content-ecology p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
     width: 80%;
     margin-left: 40px;
@@ -541,7 +540,7 @@ summary::-webkit-details-marker {
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .main-content-ecology h3 {
-        font-size: 18px;
+        font-size: 16px;
         margin-left: 80px;
         margin-top: 180px;
     }
@@ -560,13 +559,13 @@ summary::-webkit-details-marker {
 
 @media screen and (min-width: 1025px) {
     .main-content-ecology h3 {
-        font-size: 22px;
+        font-size: 20px;
         margin-left: 120px;
         margin-top: 200px;
     }
     
     .main-content-ecology p {
-        font-size: 18px;
+        font-size: 20px;
         width: 70%;
         margin-left: 120px;
         line-height: 1.5;
@@ -585,7 +584,7 @@ summary::-webkit-details-marker {
 
 .main-content-events-exhibitions h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 26px;
+    font-size: 22px;
     font-style: italic;
     color: #3FA752;
     margin-left: 40px;
@@ -594,7 +593,7 @@ summary::-webkit-details-marker {
 
 .main-content-events-exhibitions h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     margin-left: 40px;
     margin-top: 40px;
 }
@@ -607,14 +606,14 @@ summary::-webkit-details-marker {
 
 .main-content-events-exhibitions h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     margin-left: 40px;
     margin-top: 40px;
 }
 
 .main-content-events-exhibitions p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     margin-left: 40px;
     margin-right: 40px;
     line-height: 1.5;
@@ -622,13 +621,13 @@ summary::-webkit-details-marker {
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .main-content-events-exhibitions h2 {
-        font-size: 30px;
+        font-size: 26px;
         margin-left: 80px;
         margin-top: 250px;
     }
     
     .main-content-events-exhibitions h3 {
-        font-size: 18px;
+        font-size: 16px;
         margin-left: 80px;
         margin-top: 60px;
     }
@@ -640,7 +639,7 @@ summary::-webkit-details-marker {
     }
     
     .main-content-events-exhibitions h3 {
-        font-size: 18px;
+        font-size: 16px;
         margin-left: 80px;
         margin-top: 60px;
     }
@@ -654,13 +653,13 @@ summary::-webkit-details-marker {
 
 @media screen and (min-width: 1025px) {
     .main-content-events-exhibitions h2 {
-        font-size: 35px;
+        font-size: 30px;
         margin-left: 150px;
         margin-top: 300px;
     }
     
     .main-content-events-exhibitions h3 {
-        font-size: 22px;
+        font-size: 20px;
         margin-left: 150px;
         margin-top: 80px;
     }
@@ -672,7 +671,7 @@ summary::-webkit-details-marker {
     }
     
     .main-content-events-exhibitions h3 {
-        font-size: 22px;
+        font-size: 20px;
         margin-left: 150px;
         margin-top: 60px;
     }
@@ -703,15 +702,15 @@ summary::-webkit-details-marker {
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    margin-left: -50px;
+    margin-left: -30px;
     margin-top: 20px;
 }
 
 .footer-content h1 {
     font-family: 'Comic Sans MS', cursive;
-    margin-left: -50px;
+    margin-left: -20px;
     margin-top: 15px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .site-footer h2 {
@@ -769,15 +768,15 @@ summary::-webkit-details-marker {
     }
 
     .footer-content h1 {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .logo h1 span.green {
-        font-size: 15px;
+        font-size: 16px;
     }
     
     .logo h1 span.black {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .site-footer h2 {
@@ -804,15 +803,15 @@ summary::-webkit-details-marker {
     }
 
     .footer-content h1 {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .logo h1 span.green {
-        font-size: 18px;
+        font-size: 20px;
     }
     
     .logo h1 span.black {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .site-footer h2 {
