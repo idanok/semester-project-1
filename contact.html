@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="If you want to get in touch with us, please
-    send us a message, call us at: 123 45 678 or email us at: LyngdalScienceMuseum@gmail.com.
-    You are also welcome to come visit us at: Romskogveien 2, 4580 Lyngdal.">
+    <meta name="description" content="If you want to get in touch with us, please send us a message, call us at: 123 45 678 or email us at: LyngdalScienceMuseum@gmail.com. You are also welcome to come visit us at: Romskogveien 2, 4580 Lyngdal.">
     <meta name="keywords" content="HTML, CSS">
     <meta name="author" content="Ida Nøkland">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="contact.css">
     <title>Contact Page</title>
 </head>
+
 <body>
-    <nav class="header">
-        <section class="logo">
-            <a href="index.html">
-                <img src="img/science-logo.jpg"
-                alt="green and black, atom and keyhole logo">
-                <h1><span class="green">Lyng</span><span class="black">dal</span> <span class="green">Scien</span><span class="black">ce</span> <span class="green">Muse</span><span class="black">um</span></h1>
-            </a>
-        </section>
-        <div class="search-container">
-            <label for="searchField" class="search-icon">
-                <img src="img/search.png"
-                alt="Search Icon black">
-                <span class="search-text">Search</span>
-            </label>
-            <input type="text" id="searchField" class="search-field" placeholder="Search...">
-        </div>
-        <nav class="hamburger-menu">
-            <details>
-                <summary>☰ Menu</summary>
+    <header class="header">
+        <!-- Top bar with search and menu -->
+        <div class="top-bar">
+
+    
+            <!-- Mobile hamburger menu -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+            <label for="menu-toggle" class="hamburger-icon">☰</label>
+
+            <nav class="side-menu">
+                <label for="menu-toggle" class="close-btn">&times;</label>
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="contribution.html">Contribution</a>
+                <a href="exhibitions.html">Exhibitions</a>
+                <a href="document.html">Document</a>
+            </nav>
+    
+            <!-- Desktop menu -->
+            <nav class="desktop-menu">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -38,65 +40,93 @@
                     <li><a href="exhibitions.html">Exhibitions</a></li>
                     <li><a href="document.html">Document</a></li>
                 </ul>
-            </details>
-        </nav>
-    </nav>
-    <div class="main-image-lab">
-        <img src="img/lab.jpg"
-        alt="yellow images of many lab equipments horizontally">
-    </div>
-    <div class="main-content">
-    <h2>CONTACT US</h2>
-    <div class="contact-form">
-        <input placeholder="Full name:">
-        <input placeholder="Email:">
-        <textarea placeholder="Message:"></textarea>
-        <button>SEND MESSAGE</button>
-    </div>
-    <div class="contact-information">
-        <div class="horizontally-aligned">
-            <img src="img/call.png"
-            alt="phone icon black">
-            <p>123 45 678</p>
+            </nav>
         </div>
-        <div class="horizontally-aligned">
-            <img src="img/email.png"
-            alt="email icon black">
-            <p>LyngdalScienceMuseum@gmail.com</p>
-        </div>
-        <div class="opening-hours">
-            <h3>Opening hours</h3>
-            <p>Monday: Closed</p>
-            <p>Tuesday- Thursday: 10:00- 16:00</p>
-            <p>Friday: 10:00- 19:00</p>
-            <p>Saturday: 09:00- 16:00</p>
-            <p>Sunday: 09:00- 13:00</p>
-        </div>
-        <div class="adress">
-            <p>We would love to have you visit us at:</p>
-            <h3>Romskogveien 2, 4580 Lyngdal</h3>
-        </div>
-    </div>
-    </div>
+    
+        <!-- Logo below -->
+        <section class="logo">
+            <a href="index.html">
+                <img src="img/science-logo.jpg" alt="green and black, atom and keyhole logo">
+                <h1>
+                    <span class="green">Lyng</span><span class="black">dal</span>
+                    <span class="green">Scien</span><span class="black">ce</span>
+                    <span class="green">Muse</span><span class="black">um</span>
+                </h1>
+            </a>
+        </section>
+    </header>
+
+    <main>
+        <section class="main-image-lab">
+            <img src="img/lab.jpg" alt="Yellow images of many lab equipments horizontally">
+        </section>
+
+        <section class="main-content">
+            <h2>Contact Us</h2>
+
+            <form class="contact-form" action="#" method="post">
+                <label>
+                    <input type="text" name="name" placeholder="Full name:" required>
+                </label>
+                <label>
+                    <input type="email" name="email" placeholder="Email:" required>
+                </label>
+                <label>
+                    <textarea name="message" placeholder="Message:" rows="5" required></textarea>
+                </label>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <section class="contact-information">
+                <div class="horizontally-aligned">
+                    <img src="img/call.png" alt="Phone icon black">
+                    <p>123 45 678</p>
+                </div>
+                <div class="horizontally-aligned">
+                    <img src="img/email.png" alt="Email icon black">
+                    <p>LyngdalScienceMuseum@gmail.com</p>
+                </div>
+
+                <section class="opening-hours">
+                    <h3>Opening Hours</h3>
+                    <ul>
+                        <li>Monday: Closed</li>
+                        <li>Tuesday – Thursday: 10:00 – 16:00</li>
+                        <li>Friday: 10:00 – 19:00</li>
+                        <li>Saturday: 09:00 – 16:00</li>
+                        <li>Sunday: 09:00 – 13:00</li>
+                    </ul>
+                </section>
+
+                <address class="address">
+                    <p>We would love to have you visit us at:</p>
+                    <h3>Romskogveien 2, 4580 Lyngdal</h3>
+                </address>
+            </section>
+        </section>
+    </main>
+
     <footer class="site-footer">
-        <div class="footer-content">
-            <div class="logo">
-                <img src="img/science-logo.jpg"
-                alt="green and black, atom and keyhole logo">
+        <section class="footer-content">
+            <section class="logo">
+                <img src="img/science-logo.jpg" alt="green and black, atom and keyhole logo">
                 <h1>Lyngdal Science Museum</h1>
-            </div>
-            <div class="Opening hours">
-                <h2>Opening hours</h2>
-                <p>Monday: Closed</p>
-                <p>Tuesday- Thursday: 10:00- 16:00</p>
-                <p>Friday: 10:00- 19:00</p>
-                <p>Saturday: 09:00- 16:00</p>
-                <p>Sunday: 09:00- 13:00</p>
-                <h3>Location: Romskogveien 2,
-                <br>4580 Lyngdal<h3>
-            </div>
-        </div>
+            </section>
+
+            <section class="opening-hours">
+                <h2>Opening Hours</h2>
+                <ul>
+                    <li>Monday: Closed</li>
+                    <li>Tuesday – Thursday: 10:00 – 16:00</li>
+                    <li>Friday: 10:00 – 19:00</li>
+                    <li>Saturday: 09:00 – 16:00</li>
+                    <li>Sunday: 09:00 – 13:00</li>
+                </ul>
+                <p><strong>Location:</strong> Romskogveien 2, 4580 Lyngdal</p>
+            </section>
+        </section>
         <p class="copyright">&copy; Lyngdal Science Museum 2023. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
