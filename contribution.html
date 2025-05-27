@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="We always need more help with the Museum and we appreciate
-    all support. We also offer internships where you will learn a lot and have a unique and 
-    fun workplace. It is also possible to volunteer at the Museum and that comes with some 
-    perks, as a monthly lunch and getting to se behind the scenes. Please visit
-    our contact page if you have any questions or want to get involved.">
+    <meta name="description" content="We always need more help with the Museum and we appreciate all support. We also offer internships where you will learn a lot and have a unique and fun workplace. It is also possible to volunteer at the Museum and that comes with some perks, like a monthly lunch and getting to see behind the scenes. Please visit our contact page if you have any questions or want to get involved.">
     <meta name="keywords" content="HTML, CSS">
     <meta name="author" content="Ida Nøkland">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="contribution.css">
     <title>Contribution Page</title>
 </head>
+
 <body>
-    <nav class="header">
-        <section class="logo">
-            <a href="index.html">
-                <img src="img/science-logo.jpg"
-                alt="green and black, atom and keyhole logo">
-                <h1><span class="green">Lyng</span><span class="black">dal</span> <span class="green">Scien</span><span class="black">ce</span> <span class="green">Muse</span><span class="black">um</span></h1>
-            </a>
-        </section>
-        <div class="search-container">
-            <label for="searchField" class="search-icon">
-                <img src="img/search.png"
-                alt="Search Icon black">
-                <span class="search-text">Search</span>
-            </label>
-            <input type="text" id="searchField" class="search-field" placeholder="Search...">
-        </div>
-        <nav class="hamburger-menu">
-            <details>
-                <summary>☰ Menu</summary>
+    <header class="header">
+        <!-- Top bar with search and menu -->
+        <div class="top-bar">
+
+    
+            <!-- Mobile hamburger menu -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+            <label for="menu-toggle" class="hamburger-icon">☰</label>
+
+            <nav class="side-menu">
+                <label for="menu-toggle" class="close-btn">&times;</label>
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="contribution.html">Contribution</a>
+                <a href="exhibitions.html">Exhibitions</a>
+                <a href="document.html">Document</a>
+            </nav>
+    
+            <!-- Desktop menu -->
+            <nav class="desktop-menu">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -40,92 +40,90 @@
                     <li><a href="exhibitions.html">Exhibitions</a></li>
                     <li><a href="document.html">Document</a></li>
                 </ul>
-            </details>
-        </nav>
-    </nav>
-    <nav class="main-content">
-        <div class="center-headline">
+            </nav>
+        </div>
+    
+        <!-- Logo below -->
+        <section class="logo">
+            <a href="index.html">
+                <img src="img/science-logo.jpg" alt="green and black, atom and keyhole logo">
+                <h1>
+                    <span class="green">Lyng</span><span class="black">dal</span>
+                    <span class="green">Scien</span><span class="black">ce</span>
+                    <span class="green">Muse</span><span class="black">um</span>
+                </h1>
+            </a>
+        </section>
+    </header>
+
+    <main class="main-content">
+        <header class="center-headline">
             <h2 class="underline-text">Get Involved</h2>
-        </div>
-        <h3>Support</h3>
-        <div class="p-img-horizontal">
-            <p>There are various ways you can support the museum.
-                Donations are very welcome and are an important way
-                we keep this museum open and accessible to the whole
-                community. You can also support us by donating items
-                of interest to the museum’s collections. If you have
-                some item or collection that you think others would enjoy,
-                please let us know by contacting our Collections Department
-                and they will be able to assist you.</p>
-                <img src="img/ball.jpg"
-                alt="orange balls on a stand">
-            </div>
+        </header>
+
+        <section>
+            <h3>Support</h3>
+            <article class="p-img-horizontal">
+                <p>There are various ways you can support the museum. Donations are very welcome and are an important way we keep this museum open and accessible to the whole community. You can also support us by donating items of interest to the museum’s collections. If you have some item or collection that you think others would enjoy, please contact our Collections Department and they will assist you.</p>
+                <img src="img/ball.jpg" alt="orange balls on a stand">
+            </article>
+        </section>
+
+        <section>
             <h3>Volunteer</h3>
-            <div class="p-img-horizontal">
-                <p>A number of people volunteer their time and effort
-                to keep the displays in good order and ready for
-                visitors to come and enjoy. Volunteering has its
-                perks including getting to see behind the scenes
-                of a working museum, access to staff-only lectures,
-                and a monthly lunch where all staff and volunteers
-                come together to discuss ideas for future exhibits
-                and strategies for the museum. You can help volunteer
-                in a number of different spheres. Please contact us
-                if you’d like to find out more about how you can get
-                involved.</p>
-                <img src="img/teacher.jpg"
-                alt="cartoon teacher with some chemicals">
-        </div>
-            <div class="perks-container-horizontal">
+            <article class="p-img-horizontal">
+                <p>Many people volunteer their time and effort to keep the displays in good order for visitors to enjoy. Volunteering has its perks, including behind-the-scenes access, invitations to staff-only lectures, and monthly lunches with museum staff to discuss exhibit ideas and plans. Please contact us if you'd like to learn how you can get involved.</p>
+                <img src="img/teacher.jpg" alt="cartoon teacher with some chemicals">
+            </article>
+
+            <section class="perks-container-horizontal">
                 <div class="perks-container-big">
-                    <p>Monthly lunch where staff and volunteers come together to discuss
-                    ideas for future exhibits and strategies for the museum! </p>
+                    <p>Monthly lunch where staff and volunteers come together to discuss ideas for future exhibits and strategies for the museum!</p>
                 </div>
                 <div class="perks-container-medium">
                     <p>You get to see behind the scenes of a working museum!</p>
                 </div>
-            </div>
+            </section>
             <div class="perks-container-small">
-                <p>Access to staff only lectures!</p>
+                <p>Access to staff-only lectures!</p>
             </div>
+        </section>
+
+        <section>
             <h3>Internships</h3>
-            <div class="p-img-horizontal">
-                <p>Are you interested in working in a museum? Do you
-                enjoy the fun and excitement of sharing the wonders
-                of nature with people? Well you could be just the
-                right person to enjoy an internship at the museum.
-                You’ll be learning from a number of different
-                academics and people who are passionate about
-                science and sharing it with the wider community.</p>
-                <img src="img/science.jpg"
-                alt="red, blue and yellow chemicals">
-            </div>
-                <div class="contact-form">
-                    <p>We appreciate your support and we hope you are
-                        interested in helping us. If you have any questions
-                        or are interested in getting involved, please contact
-                        us here:</p>
-                    <button>Contact Us</button>
-                </div>
-    </nav>
+            <article class="p-img-horizontal">
+                <p>Are you interested in working in a museum? Do you enjoy sharing the wonders of science with others? Then you could be the perfect candidate for an internship at the museum. You’ll learn from experienced academics and passionate science communicators as part of our team.</p>
+                <img src="img/science.jpg" alt="red, blue and yellow chemicals">
+            </article>
+        </section>
+
+        <section class="contact-form">
+            <p>We appreciate your support and hope you’re interested in helping us. If you have any questions or would like to get involved, please contact us here:</p>
+            <button>Contact Us</button>
+        </section>
+    </main>
+
     <footer class="site-footer">
-        <div class="footer-content">
-            <div class="logo">
-                <img src="img/science-logo.jpg"
-                alt="green and black, atom and keyhole logo">
+        <section class="footer-content">
+            <section class="logo">
+                <img src="img/science-logo.jpg" alt="green and black, atom and keyhole logo">
                 <h1>Lyngdal Science Museum</h1>
-            </div>
-            <div class="Opening hours">
-                <h2>Opening hours</h2>
-                <p>Monday: Closed</p>
-                <p>Tuesday- Thursday: 10:00- 16:00</p>
-                <p>Friday: 10:00- 19:00</p>
-                <p>Saturday: 09:00- 16:00</p>
-                <p>Sunday: 09:00- 13:00</p>
-                <h3>Location: Romskogveien 2, 4580 Lyngdal<h3>
-            </div>
-        </div>
+            </section>
+
+            <section class="opening-hours">
+                <h2>Opening Hours</h2>
+                <ul>
+                    <li>Monday: Closed</li>
+                    <li>Tuesday – Thursday: 10:00 – 16:00</li>
+                    <li>Friday: 10:00 – 19:00</li>
+                    <li>Saturday: 09:00 – 16:00</li>
+                    <li>Sunday: 09:00 – 13:00</li>
+                </ul>
+                <p><strong>Location:</strong> Romskogveien 2, 4580 Lyngdal</p>
+            </section>
+        </section>
         <p class="copyright">&copy; Lyngdal Science Museum 2023. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
